@@ -1,0 +1,22 @@
+node_modules
+.DS_Store
+dist
+dist-ssr
+*.local
+*.pem
+/components/getMultipliers.js
+/components/Multiply.vue
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# local env files
+.env.local
+.env.*.local

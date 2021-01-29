@@ -1,0 +1,23 @@
+$red: #eb514c;
+$blue: #4b8ebb;
+$orange: #777bb3b0;
+$green: rgba(192, 65, 33, 0.753);
+$header-color: #fff9e6;
+$text-color: rgb(151, 68, 100);
+$faded: rgba(0, 0, 0, 0.25);
+$tablet: 550px;
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: $red;
+}
+::-webkit-scrollbar-thumb {
+  background: $red;
+  border-radius: 2px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: $blue;
+}
