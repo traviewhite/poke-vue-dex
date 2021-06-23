@@ -14,7 +14,7 @@ export default {
   },
   methods: {
     findName() {
-      if (this.search !== '') this.$emit('setPokemonUrl', this.apiUrl + this.search)
+      if (this.search !== '') this.$emit('setPokemonUrl', this.apiUrl + this.search.toLowerCase())
     },
   },
 }
